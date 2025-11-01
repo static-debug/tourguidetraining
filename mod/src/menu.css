@@ -36,6 +36,10 @@
   overflow-x: hidden;
 }
 
+._menu._hidden {
+  visibility: hidden;
+}
+
 ._menu-item {
   flex-shrink: 0;
   width: 80vw;
@@ -120,15 +124,14 @@
   overflow: hidden;
   padding-left: 20px;
   padding-right: 10px;
-  color: #FFF;
+  color: #fff;
   flex-basis: 10%;
   text-decoration: none;
 }
 
-
 ._sub-menu,
 ._parent-menu {
-  transition: all .4s;
+  transition: all 0.4s;
 }
 
 ._sub-menu._show {
