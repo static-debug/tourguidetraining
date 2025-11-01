@@ -312,7 +312,7 @@ body {
 }
 
 ._verifed {
-  margin-bottom: 16px;
+  padding-bottom: 16px;
   color: #1c3f1a;
   background-color: #d7e4d6;
   border-color: #c6dac6;
@@ -320,4 +320,5 @@ body {
   border-radius: 4px;
   border: 0 solid transparent;
 }
+
 
